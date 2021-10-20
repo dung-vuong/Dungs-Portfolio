@@ -40,7 +40,7 @@ a {
 
 .logo {
   font-weight: bold;
-  font-family: 'Brush Script MT';
+  font-family: 'Brush Script MT', cursive;
   font-style: italic;
   font-size: 50px;
   -webkit-transition: all 0.5s;
