@@ -863,6 +863,9 @@ section {
   .interests-container ul li {
     margin: 0;
   }
+  .interests .subtitle {
+    margin-bottom: 1em;
+  }
   .button-container.button .up {
     font-size: 55px;
   }
