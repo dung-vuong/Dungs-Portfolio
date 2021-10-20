@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content= "width=device-width, intial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="description" content="My name is Dung Vuong, a third-Year computer science student at SJSU. This is my Portfolios">
+    <meta http-equiv="Content-Type" content="text/html">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9dc65a296f.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./myScript.js"></script>
+    
+</head>
+
+<body>
+    <!-- NAVIGATION BAR MENU-->
+    <a id="home-id"></a>
+    <div class="nav-container" id="nav-container">
+        <a href="portfolio.html" class="logo">DungVuong</a>
+        <nav id="nav-menu">
+            <ul class="menu">
+                <li class="hamburger" id="toggle"><i class="fas fa-bars"></i></li>
+                <li class="close-button"><i class="fas fa-times"></i></i></li>
+                <li class="attributes" id="out"><a href="#home-id">Home</a></li>
+                <li class="attributes" id="out"><a href="#about-id">About</a></li>
+                <li class="attributes" id="out"><a href="#interests-id">Interests</a></li>
+                <li class="attributes" id="out"><a href="#skills-id">Skills</a></li>
+                <li class="attributes" id="out"><a href="#contact-id">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- HOME SECTION-->
+    <div class="home">
+        <img src="images/home.png" alt="home">
+        <div class="text">
+            <div class="text-1">Welcome To My Portfolio</div>
+            <div class="text-2">Hi, I am</div>
+            <div class="text-3">a student</div>
+            <div class="text-4"><a class="box" href="#about-id">About Me <i class="far fa-eye"></i></a></div>
+        </div>
+        <div class="button-container">
+            <div class="up"><a href="#home-id"><i class="fas fa-caret-square-up"></i></a></div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION-->
+    <a id="about-id"></a>
+    <section class="about">
+        <p class="subtitle">About Me<br /><a class="dash">&emsp;<i class="fas fa-user-circle"></i>&emsp;</a></p>
+        <div class="left">
+            <div class="profile"><img src="images/profile.jpg" alt="profile"></div>
+            <div class="inner">
+                <p class="about-header">Hi! My Name is Dung Vuong.</p>
+                <p class="about-body">I'm a third-year computer science student at SJSU, and on my road to become a front-end developer. Before I came to the United States, I have lived in Vietnam for 15 years. Even though my home has changed, my intent to be an engineer has never changed.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/dung-vuong-94b496202/"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/dungcoder1213"><img src="images/Octocat.png" alt="GitHub"></a>
+                    <a href="https://www.hackerrank.com/DungV"><img src="images/HackerRank_Icon-1000px.png" alt="HackerRank"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- INTERESTS SECTION-->
+    <a id="interests-id"></a>
+    <section class="interests">
+        <p class="subtitle">Interests <br /> <a class="dash">&emsp;<i class="fas fa-thumbs-up"></i>&emsp;</a></p>
+        <div class="interests-container">
+            <ul>
+                <li class= "transition2 one">
+                    <div class="icon-container one">
+                        <a><img src="images/coding.png" alt="Coding"></a>
+                    </div>
+                    <p class="interests-title">Coding</p>
+                    <p class="description">Coding on my free time is my favorite hobby, also improves my programming skills and the chances of getting a job.</p>
+                </li>
+                <li class= "transition2 two">
+                    <div class="icon-container two">
+                        <a><img src="images/pets.png" alt="Pets"></a>
+                    </div>
+                    <p class="interests-title">I Love Pets</p>
+                    <p class="description">Animals are selfless and loving companions, and fill our lives with joy. So I would love to do the same thing as filling their lives with love.</p>
+                </li>
+                <li class= "transition2 three">
+                    <div class="icon-container three">
+                        <a><img src="images/sports.png" alt="Sports"></a>
+                    </div>
+                    <p class="interests-title">Sports</p>
+                    <p class="description">Badminton, tennis, basketball and swimming are not only my favorite sports but also help me to improve my physical health.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- SKILLS SECTION-->
+    <a id="skills-id"></a>
+    <section class="skills">
+        <p class="subtitle">Skills<br /><a class="dash">&emsp;<i class="fas fa-broom"></i>&emsp;</a></p>
+        <div></div>
+        <div class="skills-container transtition3">
+            <div class="inner">
+                <p class="skills-subtitle"><i class="fas fa-laptop-code"></i> Programming In ... <i class="fas fa-laptop-code"></i></p>
+                <ul class="featured-desc">
+                    <div><i class="fab fa-java"></i> Java</div>
+                    <div><i class="fab fa-python"></i> Python</div>
+                    <div><span class="iconify" data-icon="file-icons:c"></span> C++</div>
+                    <div><i class="fas fa-database"></i> SQL</div>
+                    <div><span class="iconify" data-icon="file-icons:matlab"></span> MathLab</div>
+                    <div><i class="fab fa-css3-alt"></i> CSS</div>
+                    <div><i class="fab fa-html5"></i> HTML</div>
+                    <div><i class="fab fa-js-square"></i> Javascript</div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="skills-container transtition3">
+            <div class="inner">
+                <p class="skills-subtitle"><i class="fas fa-server"></i> Programming Skills <i class="fas fa-server"></i></p>
+                <ul class="featured-desc">
+                    <div>Object-oriented programming</div>
+                    <div>Front-end web development</div>
+                    <div>Functional programming</div>
+                    <div>Testing and debugging</div>
+                    <div>Mathematical skills</div>
+                    <div>Algorithm Coding</div>
+                    <div>Data Structures</div>
+                    <div>Problem solving</div>
+                    <div>Data analytics</div>
+                    <div>Designing</div>
+                    <div>Statistic</div>
+                    <div>Git</div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="skills-container transtition3">
+            <div class="inner">
+                <p class="skills-subtitle"><i class="fas fa-book-open"></i> Self-Taught Skills <i class="fas fa-book-open"></i></p>
+                <ul class="featured-desc">
+                    <div>Communication skills</div>
+                    <div>Work under pressure</div>
+                    <div>Positive attitude</div>
+                    <div>Decision-making</div>
+                    <div>Time management</div>
+                    <div>Microsoft Excel</div>
+                    <div>Writing skills</div>
+                    <div>Speed reading</div>
+                    <div>Speed typing</div>
+                    <div>Self-control</div>
+                    <div>Research</div>
+                    <div>Teamwork</div>
+                    <div>Coding</div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="skills-container transtition3">
+            <div class="inner">
+                <p class="skills-subtitle"><i class="far fa-comments"></i> Communication Skills <i class="far fa-comments"></i></p>
+                <ul class="featured-desc">
+                    <div>Delegating tasks clearly</div>
+                    <div>Clear Communication</div>
+                    <div>Conflict resolution</div>
+                    <div>Public speaking</div>
+                    <div>Emotion control</div>
+                    <div>Body language</div>
+                    <div>Friendliness</div>
+                    <div>Confidence</div>
+                    <div>Respect</div>
+                    <div>Vietnamese</div>
+                    <div>Cantonnese</div>
+                    <div>English</div>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION-->
+    <a id="contact-id"></a>
+    <section class="contact">
+        <div class="contact-header">
+            <p class="subtitle">Contact<br /><a class="dash">&emsp;<i class="fas fa-address-card"></i></i>&emsp;</a></p>
+            <div class="lower">
+                <p class="left">I'm on my way become a front-end developer. Seeking entry-level opportunities to expand skills while facilitating company growth. Feel free to hit me up with any related projects, it could benefit both of us!</p>
+                <img src="images/contact.png" alt="contact">
+            </div>
+        </div>
+
+        <div class="contact-body">
+            <div class="contact-container one">
+                <p class="contact-icon"><i class="fas fa-search"></i></p>
+                <p class="contact-subtitle">Find Me</p>
+                <p class="contact-text">Know more about me on social-media, that's the best way we get to know each other.</p>
+                <div class="contact-box">
+                    <ul>
+                        <div class="one-line"><a href="https://www.instagram.com/dungvooong/?hl=en" class="ig"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <div class="one-line"><a href="images/snapchat.jpg" class="sc"><i class="fab fa-snapchat"></i></i> Snapchat</a></li>
+                        <div class="loner"><a href="https://www.facebook.com/profile.php?id=100010139978516" class="fb"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-container two">
+                <p class="contact-icon"><i class="fas fa-info-circle"></i></p>
+                <p class="contact-subtitle">Contact Information</p>
+                <p class="contact-text">Anyone who is interested in working with me, here is my information. </p>
+                <div class="info-text">
+                    <p>Name: Dung Vuong</p>
+                    <p>Location: San Jose, CA, 95148, U.S.A </p>
+                    <p>Phone: (408)-772-2910</p>
+                    <p>Gmail: dungvuong1213@gmail.com </p>
+                </div>
+            </div>
+            <div class="contact-container three">
+                <p class="contact-icon"><i class="far fa-handshake"></i></p>
+                <p class="contact-subtitle">Hire Me</p>
+                <p class="contact-text">Thanks for visiting! Get in touch with me, I am and will be a strong candidate for your company.</p>
+                <div class="contact-box">
+                    <ul>
+                        <div class="one-line"><a href="https://www.linkedin.com/in/dung-vuong-94b496202/" class="in"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <div class="one-line"><a href="#" class="gh"><i class="fa fa-github"></i> Github</a></li>   
+                        <div class="loner"><a href="mailto:dungvuong1213@gmail.com" class="gg"><i class="fab fa-google"></i>mail</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<footer class="end">
+    <div class="footer-left">
+        <a href="portfolio.html" class="logo">DungVuong</a>
+        <p class="footer-links">
+            <a href="#home-id">Home</a>
+            <a href="#about-id">About</a>
+            <a href="#interests-id">Interests</a>
+            <a href="#skills-id">Skills</a>
+            <a class="link-5" href="#contact-id">Contact </a>
+        </p>
+        <p class="footer-created">Created By Dung Vuong | © 2021 All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>San Jose, 95148</span> California, USA</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>(408)-772-2910</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:dungvuong1213@gmail.com">dungvuong1213<br />@gmail.com</a></p>
+        </div>
+    </div>
+
+    <div class="footer-right">
+        <p class="footer-summary">
+            <span>Summary</span>
+            The portfolio I created using pure HTML and CSS with the purpose of letting people know more about me.
+        </p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100010139978516"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/dungvooong/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/dungcoder1213"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dung-vuong-94b496202/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.hackerrank.com/DungV"><i class="fab fa-hackerrank"></i></a>
+        </div>
+    </div>
+
+</footer>
+</html>
