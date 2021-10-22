@@ -760,6 +760,9 @@ section {
   .nav-container.black .hamburger {
     margin: 0.5em 6% 0.5em 0em;
   }
+  .end .footer-left .logo {
+    font-size: 30px;
+  }
 }
 
 /* ---------------------------------------------------------------*/
