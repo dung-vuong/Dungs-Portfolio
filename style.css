@@ -46,8 +46,9 @@ a {
 }
 
 .logo {
-  font-family: 'Brush Script MT', cursive;
-  font-size: 50px;
+  font-family: 'Leckerli One', cursive;
+  font-style: italic;
+  font-size: 45px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
