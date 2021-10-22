@@ -878,10 +878,6 @@ section {
   .button-container.button .up {
     font-size: 55px;
   }
-  .nav-container.open ul li {
-    margin: 0;
-    padding: 1em 0em 1em 0em;
-  }
 }
 
 /* ---------------------------------------------------------------*/
