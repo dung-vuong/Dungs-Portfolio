@@ -6,4 +6,4 @@
 
 #### ● Created responsive pages using pure HTML
 #### ● Added several user-friendly hover effects using pure CSS
-#### ● Purpose of interpre
+#### ● Purpose of interpreting my information, accomplishments, skills, and potential
